@@ -114,3 +114,13 @@ function addFlab(arrayName){
     arrayName.push('flabbergasted')
 }
 addFlab(BestArray)
+console.log(BestArray)
+//in this arrayName is the name of the array that you
+//want
+//this is the teachers solution 
+const BestArray = ['5', '6', '7']
+function addFlab(){
+    BestArray.push('flabbergasted')
+}
+addFlab(BestArray)
+console.log(BestArray) 
