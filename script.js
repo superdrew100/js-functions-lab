@@ -78,3 +78,39 @@ console.log(addZeros(56, 3))
 
 //return a function 
 //(yes you can write functions inside functions!)
+function heck( a, b){
+    return a + b
+}
+
+console.log(heck)
+//second attempt, actually just following what hes doing 
+//in class cause im confused about what th quetsion
+// is even asking i guess
+function outerFunction() {
+    console.log('outerFunction')
+
+    function innerfunction() {
+        console.log('innter function')
+    }
+    return innerFunction
+}
+
+const answer = outerFunction()
+
+//last one?
+
+const myArray = ['1', '2', '3']
+function removeItem(ArrayItem){
+    myArray.splice[ArrayItem]
+
+}
+console.log(removeItem(0))
+removeItem(0)
+
+//add flabbergasted to an array
+
+const BestArray = ['5', '6', '7']
+function addFlab(arrayName){
+    arrayName.push('flabbergasted')
+}
+addFlab(BestArray)
