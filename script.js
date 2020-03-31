@@ -65,3 +65,16 @@ function adder(num1, num2, num3){
     return num1 + num2 + num3
 }
 console.log(adder(1, 2, 3))
+
+//Take a number and add some amount of zeroes 
+//to the end, returning it 
+//(make sure you return a number, not a string)
+
+function addZeros(num1, zeroCount){
+    const result = num1 * (10 ** zeroCount)
+    return result
+}
+console.log(addZeros(56, 3))
+
+//return a function 
+//(yes you can write functions inside functions!)
