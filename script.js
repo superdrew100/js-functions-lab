@@ -59,4 +59,9 @@ const answer3 = adder(1, 2,)
 console.log('adder answer' , answer)
 
 
-//
+//this was my version of it
+
+function adder(num1, num2, num3){
+    return num1 + num2 + num3
+}
+console.log(adder(1, 2, 3))
